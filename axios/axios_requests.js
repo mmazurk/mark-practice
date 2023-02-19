@@ -73,6 +73,7 @@ async function addStory() {
             url: 'https://www.google.com'
         }
     }
+    console.log(newStory);
     const story = await axios.post('https://hack-or-snooze-v3.herokuapp.com/stories', newStory)
     console.log(story);
 }

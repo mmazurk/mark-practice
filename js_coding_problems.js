@@ -5,6 +5,10 @@ for (let item in myObject) {
   console.log(`${item} is totally a ${myObject[item]}`);
 }
 
+
+// You go here to get an api_key
+// https://developers.giphy.com/dashboard/
+
 // iterate through a complex object
 async function newGetPicture() {
   const searchTerm = "cats";
